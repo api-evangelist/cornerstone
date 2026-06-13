@@ -1,0 +1,44 @@
+name: Cornerstone OnDemand API FinOps
+description: Financial operations guidance for teams integrating with the Cornerstone OnDemand API. API access is bundled with product module subscriptions; there are no per-call or consumption-based charges. Cost management focuses on subscription tier selection, user seat optimization, and avoiding overage scenarios through disciplined throttle management.
+url: https://www.cornerstoneondemand.com/platform/extend-integrations/
+model: Subscription-based (per user, per year); API access included with module license
+cost_drivers:
+  - name: User Seat Count
+    description: Primary cost driver. Pricing scales with the number of licensed users across Learning, Performance, Recruiting, Core HR, and other modules. Reducing inactive seats lowers cost.
+    optimization: Audit active users regularly and remove inactive accounts to reduce seat count at renewal.
+  - name: Module Selection
+    description: Each Cornerstone module (Learning, Performance, Recruiting, HR, Succession, Talent Marketplace) is licensed separately or as a bundle. Selecting only required modules reduces total cost.
+    optimization: Map integration use cases to specific modules. Avoid licensing modules not consumed by API workflows.
+  - name: Content Subscriptions
+    description: Cornerstone Content (e-learning libraries, Cornerstone Content Anytime) is priced separately and can substantially increase total contract value.
+    optimization: Evaluate content library utilization data before renewing; eliminate underused subscriptions.
+  - name: Implementation and Professional Services
+    description: Cornerstone charges for implementation, configuration, and onboarding. Custom professional services engagements add to total cost of ownership.
+    optimization: Leverage the self-service developer portal and community resources to reduce reliance on paid professional services.
+  - name: Contract Term
+    description: Annual vs. multi-year agreements affect per-unit pricing. Multi-year deals typically provide discounts.
+    optimization: Commit to multi-year terms when growth is predictable to secure better unit pricing.
+  - name: Environment Usage
+    description: Non-production environments (Pilot, Stage) are included and do not incur additional cost. API calls against these environments consume their own independent throttle quotas.
+    optimization: Use Pilot/Stage for development and testing to avoid consuming Production throttle limits.
+api_cost_notes:
+  - There are no per-API-call charges; usage is not metered at the request level.
+  - Throttle limits (HTTP 429) do not trigger financial penalties but can block integrations if not managed.
+  - Failed HTTP 429 responses count against rate limit quotas; uncontrolled retry loops can exhaust limits and disrupt operations.
+  - Third-party connector and marketplace partner costs are governed by individual partner agreements, not Cornerstone directly.
+vendor_management:
+  - name: Contract Negotiation
+    description: Pricing is negotiated directly with Cornerstone sales. Enterprise deals are highly negotiable on per-user rate, module bundling, and contract length.
+  - name: Renewal Optimization
+    description: Use Cornerstone's built-in reporting and Reporting API data to document actual adoption metrics before renewal negotiations.
+  - name: Marketplace Integrations
+    description: Cornerstone Extend Marketplace (marketplace.csod.com) hosts third-party integrations that may carry separate licensing costs.
+resources:
+  - name: Cornerstone Pricing Inquiry
+    url: https://www.cornerstoneondemand.com/
+  - name: Cornerstone Extend Marketplace
+    url: https://marketplace.csod.com/
+  - name: API Throttling Documentation
+    url: https://csod.dev/guides/getting-started/throttling.html
+  - name: Bulk API Throttling Limits
+    url: https://csod.dev/guides/bulk/throttling-limits.html

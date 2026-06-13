@@ -1,0 +1,66 @@
+name: Cornerstone OnDemand API Rate Limits
+description: Cornerstone OnDemand enforces throttling limits on all authenticated API calls to maintain platform performance and reliability. Limits are enforced independently per environment (Production, Pilot, and Stage each have separate quotas). When limits are exceeded the API returns HTTP 429. Failed 429 responses still count against aggregate limits.
+url: https://csod.dev/guides/getting-started/throttling.html
+headers:
+  - name: x-csod-throttling-rate-limit-urilevel
+    description: Hourly throttle limit for the requested URI endpoint
+  - name: x-csod-requests-remaining-urilevel
+    description: Number of remaining requests allowed in the current hour for the requested URI endpoint
+error:
+  status: 429
+  message: CSOD Too many requests
+  guidance: Queue requests and retry after the throttle duration has passed. Avoid repeated 429 calls as they consume quota.
+tiers:
+  - name: Foundational APIs (Generic)
+    description: Default throttling applied across all Foundational REST APIs unless a more specific limit is documented.
+    limits:
+      - scope: per minute
+        requests: 417
+      - scope: per hour
+        requests: 25000
+      - scope: per day
+        requests: 600000
+  - name: Employee / OU API
+    description: Each individual OU endpoint allows 300 calls per minute; combined across all OU endpoints the system permits up to 3,000 calls per minute.
+    limits:
+      - scope: per minute per endpoint
+        requests: 300
+      - scope: per minute aggregate (all OU endpoints)
+        requests: 3000
+  - name: Recruiting - Candidate and Application (POST)
+    description: Throttle limit for POST operations creating candidates and applications.
+    limits:
+      - scope: per minute
+        requests: 50
+  - name: Bulk API - Standard Endpoints (schemas, specification, jobs)
+    description: Throttle limits for Bulk API schema, specification, and job management endpoints.
+    limits:
+      - scope: per minute
+        requests: 5
+      - scope: per hour
+        requests: 300
+      - scope: per day
+        requests: 7200
+  - name: Bulk API - Import Operations
+    description: Throttle limits for Bulk API data import submission endpoints.
+    limits:
+      - scope: per minute
+        requests: 30
+      - scope: per hour
+        requests: 1800
+      - scope: per day
+        requests: 43200
+  - name: Bulk API - Import Reports and Errors
+    description: Throttle limits for retrieving import reports and error details from the Bulk API.
+    limits:
+      - scope: per minute
+        requests: 10
+      - scope: per hour
+        requests: 600
+      - scope: per day
+        requests: 14400
+notes:
+  - Minute-level limits are derived from the hourly limit divided by 60 (x-csod-throttling-rate-limit-urilevel / 60).
+  - Throttle limits apply equally across all three environments; Production, Pilot, and Stage are tracked independently.
+  - It is recommended to maintain timers in client applications to pace requests and avoid hitting minute-level limits.
+  - Refer to each API-specific guide at https://csod.dev/ for endpoint-level throttling details.

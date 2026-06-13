@@ -1,0 +1,154 @@
+aid: cornerstone
+name: Cornerstone OnDemand
+description: Cornerstone OnDemand is an enterprise talent management platform offering REST APIs for learning management, performance reviews, succession planning, recruiting, and workforce analytics. The APIs are RESTful, support OAuth 2.0 Client Credentials authentication, and return JSON (with some XML support). Developers can integrate with modules including Core HR, Learning, Performance, Recruiting, Reporting, Bulk data import, Connectors, and Webhooks through the Cornerstone Developer Portal at csod.dev.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/cornerstone/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Talent Management
+  - Learning Management
+  - Performance Management
+  - Recruiting
+  - HR
+  - Workforce Analytics
+  - Succession Planning
+  - Enterprise
+apis:
+  - name: Cornerstone Employee and OU API
+    description: Synchronize employee records and organizational unit (OU) structures between external systems and Cornerstone. Supports create, read, update, and deactivate operations for users and organizational hierarchies.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/guides/employee-ou/
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - HR
+      - Employee
+      - Organizational Units
+    properties:
+      - type: Documentation
+        url: https://csod.dev/guides/employee-ou/
+      - type: Authentication
+        url: https://csod.dev/guides/getting-started/authentication.html
+  - name: Cornerstone Learning Assignment API
+    description: Programmatically assign training courses to user transcripts asynchronously. Track assignment status and search for existing assignments across the enterprise.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - Learning
+      - Training
+      - LMS
+    properties:
+      - type: Documentation
+        url: https://csod.dev/
+      - type: Authentication
+        url: https://csod.dev/guides/getting-started/authentication.html
+  - name: Cornerstone Recruiting API
+    description: Manage the full recruiting lifecycle including job requisitions, candidate profiles, applications, and offer management. Supports applicant tracking system (ATS) integrations.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/guides/recruiting/candidate.html
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - Recruiting
+      - ATS
+      - Candidates
+    properties:
+      - type: Documentation
+        url: https://csod.dev/guides/recruiting/candidate.html
+      - type: Authentication
+        url: https://csod.dev/guides/getting-started/authentication.html
+  - name: Cornerstone Reporting API
+    description: Access workforce analytics and reporting data using an OData-compatible interface with server-driven paging. Supports BI tool integrations including Power BI.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/guides/reporting/
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - Reporting
+      - Analytics
+      - OData
+      - Workforce
+    properties:
+      - type: Documentation
+        url: https://csod.dev/guides/reporting/
+      - type: Authentication
+        url: https://csod.dev/guides/getting-started/authentication.html
+  - name: Cornerstone Bulk API
+    description: Reliably import large volumes of data into Cornerstone either as a one-time load or recurring system-to-system synchronization. Supports asynchronous job submission, status tracking, and error reporting.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - Bulk
+      - Data Import
+      - ETL
+    properties:
+      - type: Documentation
+        url: https://csod.dev/
+      - type: RateLimits
+        url: https://csod.dev/guides/bulk/throttling-limits.html
+      - type: Authentication
+        url: https://csod.dev/guides/getting-started/authentication.html
+  - name: Cornerstone Performance API
+    description: Access and manage performance review cycles, goals, competencies, ratings, and succession planning data for enterprise workforce development workflows.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - Performance
+      - Succession
+      - Goals
+    properties:
+      - type: Documentation
+        url: https://csod.dev/
+      - type: Authentication
+        url: https://csod.dev/guides/getting-started/authentication.html
+  - name: Cornerstone Webhooks
+    description: Subscribe to near real-time HTTP event notifications for critical Cornerstone business events including learner enrollment, course completion, candidate creation, account creation, and session attendance.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://csod.dev/
+    baseURL: https://[corpname].csod.com/services/api
+    tags:
+      - Webhooks
+      - Events
+      - Real-time
+    properties:
+      - type: Documentation
+        url: https://csod.dev/
+common:
+  - type: Portal
+    url: https://csod.dev/
+  - type: Documentation
+    url: https://csod.dev/guides/getting-started/
+  - type: Authentication
+    url: https://csod.dev/guides/getting-started/authentication.html
+  - type: RateLimits
+    url: https://csod.dev/guides/getting-started/throttling.html
+  - type: Status
+    url: https://status.csod.com/
+  - type: HelpDocumentation
+    url: https://help.csod.com/help/csod_0/Content/User/Edge/Overview_Topics_-_Edge/APIs_Overview.htm
+  - type: GitHubOrganization
+    url: https://github.com/cornerstoneondemand
+  - type: Marketplace
+    url: https://marketplace.csod.com/
+  - type: Website
+    url: https://www.cornerstoneondemand.com/
+  - type: Integrations
+    url: https://www.cornerstoneondemand.com/platform/extend-integrations/
+  - type: TermsOfService
+    url: https://www.cornerstoneondemand.com/terms-and-conditions
+  - type: PrivacyPolicy
+    url: https://www.cornerstoneondemand.com/privacy-policy
+  - type: Security
+    url: https://www.cornerstoneondemand.com/company/security
+  - type: Plans
+    url: plans/cornerstone-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/cornerstone-rate-limits.yml
+  - type: FinOps
+    url: finops/cornerstone-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

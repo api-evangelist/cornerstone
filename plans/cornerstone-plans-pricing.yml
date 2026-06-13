@@ -1,0 +1,58 @@
+name: Cornerstone OnDemand Plans and Pricing
+description: Cornerstone OnDemand uses a modular, per-user subscription pricing model. Organizations purchase access to individual talent management modules or bundled suites under annual or multi-year agreements. Pricing is not publicly listed and is customized based on user count, modules selected, content subscriptions, implementation scope, and contract term. Access to the REST API is included with the relevant product module subscription.
+url: https://www.cornerstoneondemand.com/
+plans:
+  - name: Learning Module
+    description: Access to learning management system (LMS) capabilities including course assignments, transcripts, and learning paths via API.
+    type: Commercial
+    pricing: Quote-based, per user per year
+    features:
+      - Learning Assignment API
+      - Transcript API
+      - Express Class API
+      - Course and curriculum management
+      - Webhooks for learning events
+  - name: Performance Module
+    description: Performance management capabilities including review cycles, goals, and succession planning via API.
+    type: Commercial
+    pricing: Quote-based, per user per year
+    features:
+      - Performance review API
+      - Goals API
+      - Succession planning API
+      - Competency and rating management
+  - name: Recruiting Module
+    description: Applicant tracking system (ATS) capabilities including job requisitions, candidates, and applications via API.
+    type: Commercial
+    pricing: Quote-based, per user per year
+    features:
+      - Job requisition API
+      - Candidate API
+      - Application API
+      - Offer management
+  - name: Core HR / Employee API
+    description: Core HR and organizational unit data management for synchronizing employee records and org structures.
+    type: Commercial
+    pricing: Quote-based, per user per year
+    features:
+      - Employee API
+      - Organizational Unit (OU) API
+      - Bulk import API
+      - SCIM provisioning support
+  - name: Enterprise Suite
+    description: Bundled access to all modules — Learning, Performance, Recruiting, Core HR, Reporting, and Talent Marketplace — at enterprise scale.
+    type: Commercial
+    pricing: Quote-based, negotiated enterprise agreement
+    features:
+      - Full API access across all modules
+      - Reporting API with OData support
+      - Bulk API for large data loads
+      - Webhooks for all event types
+      - Connectors and pre-built integrations
+      - Cornerstone Extend Marketplace access
+      - Dedicated implementation support
+notes:
+  - API access is provided as part of the product subscription; there is no standalone API-only tier.
+  - A non-production environment (Pilot/Stage) is available for all customers at no additional cost during implementation.
+  - Cornerstone does not provide custom development services; customers are responsible for their own integration code.
+  - Contact Cornerstone sales at https://www.cornerstoneondemand.com/ for a quote.
