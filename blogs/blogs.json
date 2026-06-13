@@ -1,0 +1,50 @@
+{
+  "provider": "cornerstone",
+  "name": "Cornerstone OnDemand",
+  "blogURL": "https://www.cornerstoneondemand.com/resources/",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Is AI in HR actually delivering results?",
+      "url": "https://www.cornerstoneondemand.com/resources/article/is-ai-in-hr-actually-delivering-results/",
+      "description": "Explores whether AI implementation in HR functions is producing measurable business outcomes and practical results.",
+      "tags": ["AI", "HR", "Results"]
+    },
+    {
+      "title": "BYOAI and shadow AI in HR: risks, realities, and what to do next",
+      "url": "https://www.cornerstoneondemand.com/resources/article/byoai-and-shadow-ai-in-hr-risks-realities-and-what-to-do-next/",
+      "description": "Addresses unauthorized AI tool adoption in HR departments, discussing potential risks and mitigation strategies.",
+      "tags": ["AI", "HR", "Security", "Shadow AI"]
+    },
+    {
+      "title": "What does AI in HR technology actually look like in 2026?",
+      "url": "https://www.cornerstoneondemand.com/resources/article/what-does-ai-in-hr-technology-actually-look-like-in-2026/",
+      "description": "Provides forward-looking perspective on AI implementation expectations and practical applications within HR technology systems.",
+      "tags": ["AI", "HR Technology", "2026"]
+    },
+    {
+      "title": "Introducing Cornerstone Workforce AI™",
+      "url": "https://www.cornerstoneondemand.com/resources/article/introducing-cornerstone-workforce-ai-the-intelligence-platform-for-workforce-readiness/",
+      "description": "Announces Cornerstone's new intelligence platform designed for workforce readiness, amplifying human judgment and execution.",
+      "tags": ["AI", "Workforce AI", "Product Announcement"]
+    },
+    {
+      "title": "The rise of AI Agents: a new IT operating model",
+      "url": "https://www.cornerstoneondemand.com/resources/article/the-rise-of-ai-agents/",
+      "description": "Discusses how AI agents are transforming workforce development platform operations, with 79% of senior executives reporting AI agent adoption.",
+      "tags": ["AI Agents", "IT", "Workforce Development"]
+    },
+    {
+      "title": "Stop the workslop: How training your team to use AI the right way changes everything",
+      "url": "https://www.cornerstoneondemand.com/resources/article/how-to-avoid-ai-workslop/",
+      "description": "Emphasizes that employees require skill development to effectively utilize AI tools in their daily work.",
+      "tags": ["AI", "Training", "Skills", "Learning"]
+    },
+    {
+      "title": "Workforce readiness: Where do you stand and what do you do next?",
+      "url": "https://www.cornerstoneondemand.com/resources/article/workforce-readiness-where-do-you-stand/",
+      "description": "Assessment guide helping organizations evaluate their current workforce adaptability and strategic next steps.",
+      "tags": ["Workforce Readiness", "Strategy", "Assessment"]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "csod": "https://csod.dev/vocab#",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "image": "schema:image",
+    "dateCreated": {"@id": "schema:dateCreated", "@type": "xsd:date"},
+    "dateModified": {"@id": "schema:dateModified", "@type": "xsd:date"},
+
+    "APIProvider": "schema:Organization",
+    "APIService": "schema:WebAPI",
+    "baseURL": {"@id": "schema:url", "@type": "xsd:anyURI"},
+    "humanURL": {"@id": "schema:sameAs", "@type": "xsd:anyURI"},
+    "documentation": {"@id": "schema:documentation", "@type": "xsd:anyURI"},
+
+    "Employee": "schema:Person",
+    "OrganizationalUnit": "csod:OrganizationalUnit",
+    "externalId": "csod:externalId",
+    "userId": "csod:userId",
+    "ouId": "csod:ouId",
+
+    "LearningAssignment": "csod:LearningAssignment",
+    "transcript": "csod:Transcript",
+    "course": "schema:Course",
+    "enrollment": "schema:RegisterAction",
+    "completion": "schema:CompletedActionAccessSpecification",
+
+    "JobRequisition": "schema:JobPosting",
+    "Candidate": "schema:Person",
+    "Application": "schema:ApplyAction",
+    "offer": "schema:Offer",
+
+    "PerformanceReview": "csod:PerformanceReview",
+    "goal": "csod:Goal",
+    "competency": "csod:Competency",
+    "rating": "schema:Rating",
+    "successionPlan": "csod:SuccessionPlan",
+
+    "Report": "schema:Dataset",
+    "odata": "csod:ODataQuery",
+    "pagination": "csod:Pagination",
+    "pagingToken": "csod:PagingToken",
+
+    "BulkJob": "csod:BulkImportJob",
+    "jobStatus": "csod:JobStatus",
+    "asyncJob": "csod:AsynchronousJob",
+
+    "Webhook": "csod:WebhookSubscription",
+    "event": "schema:Event",
+    "eventType": "csod:EventType",
+    "webhookEndpoint": {"@id": "csod:webhookEndpoint", "@type": "xsd:anyURI"},
+
+    "authentication": "csod:Authentication",
+    "oauth2": "csod:OAuth2",
+    "clientCredentials": "csod:ClientCredentials",
+    "accessToken": "csod:AccessToken",
+    "corpname": "csod:CorporateName",
+
+    "throttling": "csod:Throttling",
+    "rateLimit": "csod:RateLimit",
+    "callsPerMinute": {"@id": "csod:callsPerMinute", "@type": "xsd:integer"},
+    "aggregateLimit": {"@id": "csod:aggregateLimit", "@type": "xsd:integer"},
+
+    "tags": "schema:keywords",
+    "version": "schema:version",
+    "status": "schema:status"
+  }
+}
