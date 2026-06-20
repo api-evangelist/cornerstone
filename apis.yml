@@ -2,7 +2,7 @@ aid: cornerstone
 name: Cornerstone OnDemand
 description: Cornerstone OnDemand is an enterprise talent management platform offering REST APIs for learning management, performance reviews, succession planning, recruiting, and workforce analytics. The APIs are RESTful, support OAuth 2.0 Client Credentials authentication, and return JSON (with some XML support). Developers can integrate with modules including Core HR, Learning, Performance, Recruiting, Reporting, Bulk data import, Connectors, and Webhooks through the Cornerstone Developer Portal at csod.dev.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cornerstone/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -19,7 +19,7 @@ tags:
 apis:
   - name: Cornerstone Employee and OU API
     description: Synchronize employee records and organizational unit (OU) structures between external systems and Cornerstone. Supports create, read, update, and deactivate operations for users and organizational hierarchies.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/guides/employee-ou/
     baseURL: https://[corpname].csod.com/services/api
     tags:
@@ -33,7 +33,7 @@ apis:
         url: https://csod.dev/guides/getting-started/authentication.html
   - name: Cornerstone Learning Assignment API
     description: Programmatically assign training courses to user transcripts asynchronously. Track assignment status and search for existing assignments across the enterprise.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/
     baseURL: https://[corpname].csod.com/services/api
     tags:
@@ -47,7 +47,7 @@ apis:
         url: https://csod.dev/guides/getting-started/authentication.html
   - name: Cornerstone Recruiting API
     description: Manage the full recruiting lifecycle including job requisitions, candidate profiles, applications, and offer management. Supports applicant tracking system (ATS) integrations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/guides/recruiting/candidate.html
     baseURL: https://[corpname].csod.com/services/api
     tags:
@@ -61,7 +61,7 @@ apis:
         url: https://csod.dev/guides/getting-started/authentication.html
   - name: Cornerstone Reporting API
     description: Access workforce analytics and reporting data using an OData-compatible interface with server-driven paging. Supports BI tool integrations including Power BI.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/guides/reporting/
     baseURL: https://[corpname].csod.com/services/api
     tags:
@@ -76,7 +76,7 @@ apis:
         url: https://csod.dev/guides/getting-started/authentication.html
   - name: Cornerstone Bulk API
     description: Reliably import large volumes of data into Cornerstone either as a one-time load or recurring system-to-system synchronization. Supports asynchronous job submission, status tracking, and error reporting.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/
     baseURL: https://[corpname].csod.com/services/api
     tags:
@@ -92,7 +92,7 @@ apis:
         url: https://csod.dev/guides/getting-started/authentication.html
   - name: Cornerstone Performance API
     description: Access and manage performance review cycles, goals, competencies, ratings, and succession planning data for enterprise workforce development workflows.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/
     baseURL: https://[corpname].csod.com/services/api
     tags:
@@ -106,7 +106,7 @@ apis:
         url: https://csod.dev/guides/getting-started/authentication.html
   - name: Cornerstone Webhooks
     description: Subscribe to near real-time HTTP event notifications for critical Cornerstone business events including learner enrollment, course completion, candidate creation, account creation, and session attendance.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csod.dev/
     baseURL: https://[corpname].csod.com/services/api
     tags:
