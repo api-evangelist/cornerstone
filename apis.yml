@@ -122,6 +122,10 @@ apis:
     humanURL: https://csod.dev/
     baseURL: https://[corpname].csod.com/services/api
     tags:
+      - Webhook
+      - Event
+      - Real-Time
+    tags_raw:
       - Webhooks
       - Events
       - Real-time
