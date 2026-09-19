@@ -35,6 +35,15 @@ tags:
   - Learning Management
   - Performance Management
   - Recruiting
+  - Human Resources
+  - Workforce Analytics
+  - Succession Planning
+  - Enterprise
+tags_raw:
+  - Talent Management
+  - Learning Management
+  - Performance Management
+  - Recruiting
   - HR
   - Workforce Analytics
   - Succession Planning
@@ -46,6 +55,10 @@ apis:
     humanURL: https://csod.dev/guides/employee-ou/
     baseURL: https://[corpname].csod.com/services/api
     tags:
+      - Human Resources
+      - Employee
+      - Organizational Units
+    tags_raw:
       - HR
       - Employee
       - Organizational Units
