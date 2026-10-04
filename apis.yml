@@ -88,6 +88,10 @@ apis:
     baseURL: https://[corpname].csod.com/services/api
     tags:
       - Recruiting
+      - Applicant Tracking
+      - Candidates
+    tags_raw:
+      - Recruiting
       - ATS
       - Candidates
     properties:
