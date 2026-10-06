@@ -28,7 +28,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cornerstone.png
 url: https://raw.githubusercontent.com/api-evangelist/cornerstone/refs/heads/main/apis.yml
 created: '2026-06-13'
-modified: '2026-06-13'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 tags:
   - Talent Management
@@ -161,6 +161,8 @@ apis:
       - type: Documentation
         url: https://csod.dev/
 common:
+  - url: https://www.cornerstoneondemand.com/company/news-room/news/
+    type: Blog
   - type: DomainSecurity
     url: security/cornerstone-domain-security.yml
   - type: Portal
