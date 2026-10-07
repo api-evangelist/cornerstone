@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Cornerstone OnDemand Plans and Pricing
 description: Cornerstone OnDemand uses a modular, per-user subscription pricing model. Organizations purchase access to individual talent management modules or bundled suites under annual or multi-year agreements. Pricing is not publicly listed and is customized based on user count, modules selected, content subscriptions, implementation scope, and contract term. Access to the REST API is included with the relevant product module subscription.
 url: https://www.cornerstoneondemand.com/
