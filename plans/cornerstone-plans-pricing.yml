@@ -60,3 +60,40 @@ notes:
   - A non-production environment (Pilot/Stage) is available for all customers at no additional cost during implementation.
   - Cornerstone does not provide custom development services; customers are responsible for their own integration code.
   - Contact Cornerstone sales at https://www.cornerstoneondemand.com/ for a quote.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Learning Module
+    access: paid
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Performance Module
+    access: paid
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Recruiting Module
+    access: paid
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Core HR / Employee API
+    access: paid
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Suite
+    access: paid
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
