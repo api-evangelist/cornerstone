@@ -1,0 +1,118 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-w4y54ezvocahy
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (AMER)
+  - Cornerstone Workforce AI - Intelligence+ (AMER)
+  seller_name: Cornerstone OnDemand - AMER
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-6d4pg4fox7mq2
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (UK)
+  - Cornerstone Workforce AI - Intelligence+ (UK)
+  seller_name: Cornerstone OnDemand - UK
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-runklugup4lra
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (AU)
+  - Cornerstone Workforce AI - Intelligence+ (AU)
+  seller_name: Cornerstone OnDemand - AU
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-3qp2xb3lavapi
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (RoW)
+  - Cornerstone Workforce AI - Intelligence+ (RoW)
+  seller_name: Cornerstone OnDemand - RoW
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-lqdnv7x3w3x7o
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (FR)
+  - Cornerstone Workforce AI - Intelligence+ (FR)
+  seller_name: Cornerstone OnDemand - FR
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-witjetwxsciq4
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (DE+AT)
+  - Cornerstone Workforce AI - Intelligence+ (DE+AT)
+  seller_name: Cornerstone OnDemand - DE+AT
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-tjfwzlldedkfu
+  listing_count: 2
+  apps:
+  - Cornerstone Workforce AI - Learn+, Elevate+ (EU)
+  - Cornerstone Workforce AI - Intelligence+ (EU)
+  seller_name: Cornerstone OnDemand - EU
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
