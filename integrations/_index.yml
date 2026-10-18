@@ -78,7 +78,7 @@
     - connectors/applications/cornerstone
     vendor_link: https://www.cornerstoneondemand.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: cornerstone-microsoft-teams-own
   label: Microsoft Teams (own)
