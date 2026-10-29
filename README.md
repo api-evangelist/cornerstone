@@ -64,33 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cornerstone OnDemand is an enterprise talent management platform offering REST APIs for learning management, performance reviews, succession planning, recruiting, and workforce analytics across enterprise organizations.
+Cornerstone OnDemand is an enterprise talent management platform offering REST APIs for learning management, performance reviews, succession planning, recruiting, and workforce analytics. The APIs are RESTful, support OAuth 2.0 Client Credentials authentication, and return JSON (with some XML support). Developers can integrate with modules including Core HR, Learning, Performance, Recruiting, Reporting, Bulk data import, Connectors, and Webhooks through the Cornerstone Developer Portal at csod.dev.
 
-## Developer Portal
+**Areas:** Talent Management · LMS · Performance Management · Recruiting · Human Resources · Workforce Analytics · Succession Planning · Enterprise
 
-https://csod.dev/
+## Cornerstone OnDemand on APIs.io
 
-## APIs
+Everything profiled for Cornerstone OnDemand is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cornerstone/](https://apis.io/providers/cornerstone/)** — or go straight to one of the APIs or properties below.
 
-- **Employee and OU API** - Synchronize employee records and organizational unit structures
-- **Learning Assignment API** - Assign training courses to user transcripts programmatically
-- **Recruiting API** - Manage job requisitions, candidates, and applications
-- **Reporting API** - Access workforce analytics via OData-compatible interface
-- **Bulk API** - Import large data volumes asynchronously
-- **Performance API** - Manage performance reviews, goals, and succession planning
-- **Webhooks** - Real-time HTTP event notifications for business events
+### APIs (7)
 
-## Authentication
+- [Cornerstone Employee and OU API](https://apis.io/apis/cornerstone/cornerstone-employee-and-ou-api/) — Synchronize employee records and organizational unit (OU) structures between external systems and Cornerstone. Supports create, read, update, and deactivate…
+- [Cornerstone Learning Assignment API](https://apis.io/apis/cornerstone/cornerstone-learning-assignment-api/) — Programmatically assign training courses to user transcripts asynchronously. Track assignment status and search for existing assignments across the enterprise.
+- [Cornerstone Recruiting API](https://apis.io/apis/cornerstone/cornerstone-recruiting-api/) — Manage the full recruiting lifecycle including job requisitions, candidate profiles, applications, and offer management. Supports applicant tracking system…
+- [Cornerstone Reporting API](https://apis.io/apis/cornerstone/cornerstone-reporting-api/) — Access workforce analytics and reporting data using an OData-compatible interface with server-driven paging. Supports BI tool integrations including Power BI.
+- [Cornerstone Bulk API](https://apis.io/apis/cornerstone/cornerstone-bulk-api/) — Reliably import large volumes of data into Cornerstone either as a one-time load or recurring system-to-system synchronization. Supports asynchronous job…
+- [Cornerstone Performance API](https://apis.io/apis/cornerstone/cornerstone-performance-api/) — Access and manage performance review cycles, goals, competencies, ratings, and succession planning data for enterprise workforce development workflows.
+- [Cornerstone Webhooks](https://apis.io/apis/cornerstone/cornerstone-webhooks/) — Subscribe to near real-time HTTP event notifications for critical Cornerstone business events including learner enrollment, course completion, candidate…
 
-OAuth 2.0 Client Credentials grant type. Register applications via Admin > Tools > Edge > API Management to obtain a client ID and secret. Token endpoint: `POST https://[corpname].csod.com/services/api/oauth2/token`
+### Published properties
 
-## Status
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-https://status.csod.com/
+#### JSON-LD (1)
 
-## Resources
+Linked-data contexts for the provider's vocabulary.
 
-- [APIs.json](apis.yml)
-- [Plans and Pricing](plans/cornerstone-plans-pricing.yml)
-- [Rate Limits](rate-limits/cornerstone-rate-limits.yml)
-- [FinOps](finops/cornerstone-finops.yml)
+- [Cornerstone Context](https://apis.io/jsonld/cornerstone/cornerstone-context/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cornerstone Domain Security](https://apis.io/security/cornerstone/cornerstone-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cornerstone Plans Pricing](https://apis.io/plans/cornerstone/cornerstone-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cornerstone Rate Limits](https://apis.io/rate-limits/cornerstone/cornerstone-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Cornerstone Finops](https://apis.io/finops/cornerstone/cornerstone-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cornerstoneondemand.com/)
+- [Documentation](https://csod.dev/guides/getting-started/)
+- [Blog](https://www.cornerstoneondemand.com/company/news-room/news/)
+- [Security](https://www.cornerstoneondemand.com/company/security)
+- [Terms of service](https://www.cornerstoneondemand.com/terms-and-conditions)
+- [Privacy policy](https://www.cornerstoneondemand.com/privacy-policy)
+- [GitHub](https://github.com/cornerstoneondemand)
+
+## API Evangelist rating
+
+**Kin Score 24.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 28.9 |
+
+**Agent readiness 5.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cornerstone/](https://apis.io/providers/cornerstone/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cornerstone OnDemand: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cornerstone/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
